@@ -20,7 +20,7 @@ We developed a new webpage and want to test it's effects on purchase conversion.
 1. **Control**: They get the old webpage
 2. **Treatment**: They get the new webpage
 
-Metric we want to track:
+Metric we want to track: 
 
 $$
 \text{purchase conversion} = \frac{\text{Converted Users}}{\text{Exposed Users}}
