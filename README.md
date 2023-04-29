@@ -14,4 +14,23 @@ Explanation of what a/b testing is
   <img src="https://user-images.githubusercontent.com/64821137/235306046-5c3b2c0f-208a-408f-a350-634fa566818a.png" />
 </p>
 
-A/B testing helps marketers observe how one version of a piece of marketing content performs alongside another.
+### Experiment Definition
+
+We developed a new webpage and want to test it's effects on purchase conversion. As such we split our users evenly into 2 groups:
+1. **Control**: They get the old webpage
+2. **Treatment**: They get the new webpage
+
+Metric we want to track:
+
+$$
+\text{purchase conversion} = \frac{\text{Converted Users}}{\text{Exposed Users}}
+$$
+
+We have 3 weeks of logged exposure/conversion data. Let's define these terms:
+1. **Exposure**: A user is bucketed as control or treatment and sees their corresponding page for the first time in the experiment duration
+2. **Conversion**: An exposed user makes a purchase within 7 days of being first exposed
+
+Questions you should ask when setting up a test:
+- How do you think the experiment will fair?
+- Do we have actionable next steps laid out?
+
